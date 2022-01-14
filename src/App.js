@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Links from './components/Links';
+import ContactForm from './components/Contact';
 
 function App() {
     
@@ -23,7 +24,7 @@ function App() {
     ]);
 
     const [ currentLink, setCurrentLink ] = useState(navLinks[0]);
-    
+
     return (
         <div>
             <Nav
@@ -34,6 +35,7 @@ function App() {
             <main>
                 <Links></Links>
             </main>
+            <ContactForm></ContactForm>
             <Footer></Footer> 
         </div>
     );
