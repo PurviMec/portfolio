@@ -1,14 +1,14 @@
 import React from 'react';
 //import logo from './logo.svg';
 //import './App.css';
-import About from './components/About';
+import Nav from './components/Nav';
 import Footer from './components/Footer';
 
 function App() {
     return (
         <div>
-           <About></About>
-           <Footer></Footer> 
+            <Nav></Nav>
+            <Footer></Footer> 
         </div>
     );
 }

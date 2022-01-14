@@ -1,11 +1,7 @@
 import React from "react";
 
-function About () {
+function Nav () {
     const navLinks = [
-        {
-            name: "About Me",
-            description: "Short para about me"
-        },
         {
             name: "Portfolio",
             description: "Short para about me"
@@ -30,6 +26,9 @@ function About () {
             <nav>
                 <h1 id="header" className="header">Purvi Mecwan</h1>
                 <ul className="flex-row">
+                    <li>
+                        <a href="#about">About Me</a>
+                    </li>
                     {navLinks.map ((navLink) => (
                         <li className="mx-2" key={navLink.name} >
                             <span onClick={() => navLinkSelected(navLink.name)}>
@@ -38,9 +37,14 @@ function About () {
                         </li>
                     ))}
                 </ul>
+                <div id="about">
+                    <p>
+                        enrijngi
+                    </p>
+                </div>
             </nav>
-            </header>
+        </header>
     )
 }
 
-export default About;
+export default Nav;
