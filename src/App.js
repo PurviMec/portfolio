@@ -7,6 +7,7 @@ import Links from './components/Links';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import About from './components/About';
 
 function App() {
     
@@ -35,7 +36,9 @@ function App() {
                 currentLink= {currentLink}
             ></Nav>
             <main>
-                <Links></Links>
+                
+                <Links currentLink={currentLink}></Links>
+                <About></About>
                 <ContactForm></ContactForm>
                 <Portfolio></Portfolio>
                 <Resume></Resume>
