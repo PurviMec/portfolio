@@ -5,6 +5,8 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Links from './components/Links';
 import ContactForm from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
     
@@ -34,8 +36,10 @@ function App() {
             ></Nav>
             <main>
                 <Links></Links>
+                <ContactForm></ContactForm>
+                <Portfolio></Portfolio>
+                <Resume></Resume>
             </main>
-            <ContactForm></ContactForm>
             <Footer></Footer> 
         </div>
     );
