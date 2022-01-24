@@ -1,8 +1,4 @@
-import React from "react";
-//import Container from 'react-bootstrap/Container';
-//import Row from 'react-bootstrap/Row';
-//import Col from 'react-bootstrap/Col'
-//import Card from 'react-bootstrap/Card'
+import React, {useState} from "react";
 import photo from '../../assets/run-buddy.jpg';
 import photo2 from '../../assets/medIsearch.jpg';
 import photo3 from '../../assets/lastMinutePlanner.jpg';
@@ -12,7 +8,9 @@ import photo6 from '../../assets/budget-traker.jpg';
 
 
 function Portfolio () {
-    // const [photos] = useState([
+    
+
+    // const [data] = useState([
     //     {
     //         name: 'medIsearch',
     //         description: 'MEDiSEARCH is a dynamic hospital management tool that provides an efficient way to manage organization-related and medical-related information within ONE app. This application is for internal use only.'
@@ -37,34 +35,62 @@ function Portfolio () {
     //         name: 'Budget-Tracker-App',
     //         description: "This app's purpose is to save time while making monthly budge."
     //     }
-
+        
     // ])
+
+    // const [ currentPhoto, setCurrentPhoto ] = useState(photos[0]);
+    const [ showdata, setShowData ] = useState(false);
+    // const [ showdata, setShowData1 ] = useState(false);
+    // const [ showdata, setShowData2 ] = useState(false);
+    // const [ showdata, setShowData3 ] = useState(false);
+    // const [ showdata, setShowData4 ] = useState(false);
+    // const [ showdata, setShowData5 ] = useState(false);
+    const onClick = () => setShowData(true)
+
+    // const onClick = () => setShowData(true)
+
+    // const onClick = () => setShowData(true)
+
+    // const onClick = () => setShowData(true)
+
+    // const onClick = () => setShowData(true)
+
+    // const onClick = () => setShowData(true)
+
     return(
         <div className="m-5">
             
                 <div className="row m-2 justify-content-md-center">
-                    <div className="col-lg-3 card ">
-                        <img src={photo2} alt="Medisearch app" className=" img" />
+                    <div className="col-lg-3 card">
+                        <a href="#medIsearch"> 
+                        <img src={photo2} alt="Medisearch app" className=" img" onClick={onClick}/> 
+                        </a>
+                        { showdata ? "medIsearch" : null }
+                        
                     </div>
                     <div className="col-lg-3 card ">
-                        <img src={photo} alt="Run buddy" className=" img" />
+                        <img src={photo} alt="Run buddy" className=" img" onClick={onClick} />
+                        { showdata ? "Run Buddy" : null }
                     </div>
                     <div className="col-lg-3 card ">
-                        <img src={photo5} alt="Weather forcast app" className=" img" />
+                        <img src={photo5} alt="Weather forcast app" className=" img" onClick={onClick}/>
+                        { showdata ? "Weather forcast app" : null }
                     </div>
                 </div>
                 <div className="row m-2 justify-content-md-center">
                     <div className="col-lg-3 card ">
-                        <img src={photo3} alt="Last-Minute-Planner" className=" img" />
+                        <img src={photo3} alt="Last-Minute-Planner" className=" img" onClick={onClick}/>
+                        { showdata ? "Last-Minute-Planner" : null }
                     </div>
                     <div className="col-lg-3 card  ">
-                        <img src={photo4} alt="ReadMe-Generator" className=" img" />
+                        <img src={photo4} alt="ReadMe-Generator" className=" img" onClick={onClick}/>
+                        { showdata ? "ReadMe-Generator" : null }
                     </div>
                     <div className="col-lg-3 card ">
-                        <img src={photo6} alt="Budget-Tracker-App" className=" img" />
+                        <img src={photo6} alt="Budget-Tracker-App" className=" img" onClick={onClick}/>
+                        { showdata ? "Budget-Tracker-App" : null }
                     </div>
                 </div>
-           
         </div>
     )
 }

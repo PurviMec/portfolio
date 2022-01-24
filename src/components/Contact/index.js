@@ -38,7 +38,7 @@ function ContactForm () {
     }
     
     return(
-        <section className="m-5">
+        <section className="m-5 p-5">
             <Form onSubmit={handleSubmit}>
                 <Form.Control type="text" name="name" placeholder="Name" defaultValue={name} onChange={handleChange}/>
                 <br />

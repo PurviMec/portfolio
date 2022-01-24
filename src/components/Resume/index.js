@@ -3,11 +3,11 @@ import React from "react";
 function Resume (){
     return(
         <section>
-            <div className="card resume-card">
+            <div className="card resume-card m-4">
                 
-                    <h3 className="resume-h3 m-4 text-decoration-underline">
+                    <h1 className="resume-h3 m-0 text-decoration-underline">
                         Purvi Mecwan
-                    </h3>
+                    </h1>
                     
                     <h3 className="resume-h3 m-4 text-decoration-underline">
                         Summary

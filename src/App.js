@@ -7,12 +7,13 @@ import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import About from './components/About';
+import AboutMe from "./components/AboutMe"
 
 function App() {
     const [navLinks] = useState ([
         {
             name: "About Me",
-            description: "ndtzhjnzdfnf"
+            description: <AboutMe></AboutMe>
         },
         {
             name: "Portfolio",

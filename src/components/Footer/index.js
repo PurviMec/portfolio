@@ -7,10 +7,10 @@ function Footer () {
     let year = date.getFullYear();
     return(
         <footer>
-            <div>
-                <span className="mx-2"><AiFillGithub /></span>
-                <span className="mx-2"><FaLinkedinIn/></span>
-                <span className="mx-2"><AiOutlineTwitter/></span>
+            <div className="footer-div">
+                <a className="mx-2" style={{ fontSize: "50px" }}><AiFillGithub /></a>
+                <a className="mx-2" style={{ fontSize: "50px" }}><FaLinkedinIn/></a>
+                <a className="mx-2" style={{ fontSize: "50px" }}><AiOutlineTwitter/></a>
                 <h3>
                    Design and Developed by Purvi Mecwan ©️ {year}
                 </h3>
