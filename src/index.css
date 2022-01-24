@@ -232,6 +232,12 @@ textarea {
   margin-left: 300px;
 }
 
+.header-nav{
+  color: #da4206;
+  display: inline-flex;
+  margin-left: 300px;
+}
+
 .resume-card {
   height: 1500px;
   width: 98%;
