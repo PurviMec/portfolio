@@ -12,6 +12,10 @@ import AboutMe from "./components/AboutMe"
 function App() {
     const [navLinks] = useState ([
         {
+            name: "Purvi Mecwan",
+            description: <AboutMe></AboutMe>
+        },
+        {
             name: "About Me",
             description: <AboutMe></AboutMe>
         },
