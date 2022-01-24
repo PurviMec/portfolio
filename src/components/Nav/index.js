@@ -17,7 +17,7 @@ function Nav (props) {
         
         <header>
             <nav>
-                <h1 id="header" className="header links"> <a href="https://purvimec.github.io/portfolio/">Purvi Mecwan</a> </h1>
+                <h1 id="header" className="header links"> <a href="#about">Purvi Mecwan</a> </h1>
                 <ul className="flex-row links">
                     {navLinks.map ((navLink) => (
                         <li className={` mx-2 ${
