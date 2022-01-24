@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.afc990a0.css",
+    "main.js": "/portfolio/static/js/main.c0d8a6d2.js",
+    "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
+    "static/media/run-buddy.jpg": "/portfolio/static/media/run-buddy.a47084ac7e4d84fec411.jpg",
+    "static/media/weather-forcast.jpg": "/portfolio/static/media/weather-forcast.c6450df3405c5f8baa23.jpg",
+    "static/media/lastMinutePlanner.jpg": "/portfolio/static/media/lastMinutePlanner.ec3d4f4942e49903a84e.jpg",
+    "static/media/medIsearch.jpg": "/portfolio/static/media/medIsearch.72cb4f060e8f7efc6ccf.jpg",
+    "static/media/readme-generator.jpg": "/portfolio/static/media/readme-generator.fa8e2b3fb60f03d78488.jpg",
+    "static/media/Avtar.png": "/portfolio/static/media/Avtar.bbb68ed5ce03aebc5bc8.png",
+    "static/media/budget-traker.jpg": "/portfolio/static/media/budget-traker.9d777adb7e85c5282994.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.afc990a0.css.map": "/portfolio/static/css/main.afc990a0.css.map",
+    "main.c0d8a6d2.js.map": "/portfolio/static/js/main.c0d8a6d2.js.map",
+    "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afc990a0.css",
+    "static/js/main.c0d8a6d2.js"
+  ]
+}
