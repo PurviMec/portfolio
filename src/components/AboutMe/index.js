@@ -16,7 +16,7 @@ function AboutMe () {
                     JavaScripts, HTML, CSS, jQuery, Bootstrap, Node.js, MySQL, MongoDB, Express.js, React.js
                 </div>
             <div className="m-4 card-about card-header col-3">
-                <img src={Avtar} className="avtar mt-4"></img>
+                <img src={Avtar} className="avtar mt-4" alt="avtar"></img>
             </div>
         </div>
         </section>

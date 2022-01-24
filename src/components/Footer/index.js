@@ -8,9 +8,9 @@ function Footer () {
     return(
         <footer>
             <div className="footer-div">
-                <a className="mx-2" style={{ fontSize: "50px" }}><AiFillGithub /></a>
-                <a className="mx-2" style={{ fontSize: "50px" }}><FaLinkedinIn/></a>
-                <a className="mx-2" style={{ fontSize: "50px" }}><AiOutlineTwitter/></a>
+                <a className="mx-2" style={{ fontSize: "50px" }} alt="github-icon"><AiFillGithub /></a>
+                <a className="mx-2" style={{ fontSize: "50px" }} alt="linkeDin-icon"><FaLinkedinIn/></a>
+                <a className="mx-2" style={{ fontSize: "50px" }} alt="twitter-icon"><AiOutlineTwitter/></a>
                 <h3>
                    Design and Developed by Purvi Mecwan ©️ {year}
                 </h3>
