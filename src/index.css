@@ -224,3 +224,17 @@ textarea {
   display: inline-flex;
   margin-left: 300px;
 }
+
+.resume-card {
+  height: 1500px;
+  width: 98%;
+  text-align: left;
+}
+
+.resume-h3 {
+  text-align: center;
+  color: rgb(1, 1, 151);
+}
+
+
+

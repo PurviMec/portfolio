@@ -13,7 +13,7 @@ function About (props) {
     },[currentLink]);
     return(
         <div>
-            <h1>{capitalizeFirstLetter(currentLink.name)}</h1>
+            <h1 className="mt-4">{capitalizeFirstLetter(currentLink.name)}</h1>
             <p>
                {currentLink.description} 
             </p>
