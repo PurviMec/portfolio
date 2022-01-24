@@ -15,7 +15,7 @@
 ## Table of Contents
 * [Installation](#installation)
 * [Contributors](#contributors)
-* [ScreenShots](#screen-shots)
+* [ScreenShots](#screenshots)
 * [License](#license)
 
 ## Installation
