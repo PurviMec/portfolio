@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import React from "react";
 //import Container from 'react-bootstrap/Container';
 //import Row from 'react-bootstrap/Row';
 //import Col from 'react-bootstrap/Col'
@@ -12,36 +12,35 @@ import photo6 from '../../assets/budget-traker.jpg';
 
 
 function Portfolio () {
-    const [photos] = useState([
-        {
-            name: 'medIsearch',
-            description: 'MEDiSEARCH is a dynamic hospital management tool that provides an efficient way to manage organization-related and medical-related information within ONE app. This application is for internal use only.'
-        },
-        {
-            name: 'Run-Buddy',
-            description: 'App for runner, who wish to join our fitness classes provided by certified instructors.'
-        },
-        {
-            name: 'Weather-Forcast-App',
-            description: "This app provides you different city's weather forcast"
-        },
-        {
-            name: 'Last-Minute-Planner',
-            description: "This app guides people to make plans at last minute with full weather forcast of that day."
-        },
-        {
-            name: 'ReadMe-Generator',
-            description: "As a developer I develop app to create readMe file for convinience."
-        },
-        {
-            name: 'Budget-Tracker-App',
-            description: "This app's purpose is to save time while making monthly budge."
-        }
+    // const [photos] = useState([
+    //     {
+    //         name: 'medIsearch',
+    //         description: 'MEDiSEARCH is a dynamic hospital management tool that provides an efficient way to manage organization-related and medical-related information within ONE app. This application is for internal use only.'
+    //     },
+    //     {
+    //         name: 'Run-Buddy',
+    //         description: 'App for runner, who wish to join our fitness classes provided by certified instructors.'
+    //     },
+    //     {
+    //         name: 'Weather-Forcast-App',
+    //         description: "This app provides you different city's weather forcast"
+    //     },
+    //     {
+    //         name: 'Last-Minute-Planner',
+    //         description: "This app guides people to make plans at last minute with full weather forcast of that day."
+    //     },
+    //     {
+    //         name: 'ReadMe-Generator',
+    //         description: "As a developer I develop app to create readMe file for convinience."
+    //     },
+    //     {
+    //         name: 'Budget-Tracker-App',
+    //         description: "This app's purpose is to save time while making monthly budge."
+    //     }
 
-    ])
+    // ])
     return(
-        <main className="m-5">
-            <h1 className="justify-content-md-center">Portfolio</h1>
+        <div className="m-5">
             
                 <div className="row m-2 justify-content-md-center">
                     <div className="col-lg-3 card ">
@@ -66,7 +65,7 @@ function Portfolio () {
                     </div>
                 </div>
            
-        </main>
+        </div>
     )
 }
 

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav (props) {
+
     const {
         navLinks = [],
         setCurrentLink,
@@ -16,8 +17,8 @@ function Nav (props) {
         
         <header>
             <nav>
-                <h1 id="header" className="header">Purvi Mecwan</h1>
-                <ul className="flex-row">
+                <h1 id="header" className="header links"> <a href="/">Purvi Mecwan</a> </h1>
+                <ul className="flex-row links">
                     {navLinks.map ((navLink) => (
                         <li className={` mx-2 ${
                             currentLink.name === navLink.name && 'navActive'

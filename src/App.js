@@ -3,26 +3,28 @@ import React, { useState } from 'react';
 //import './App.css';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-import Links from './components/Links';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import About from './components/About';
 
 function App() {
-    
     const [navLinks] = useState ([
         {
-            name: "About Me"
+            name: "About Me",
+            description: "ndtzhjnzdfnf"
         },
         {
-            name: "Portfolio"
+            name: "Portfolio",
+            description: <Portfolio></Portfolio>
         },
         {
-            name: "Contact"
+            name: "Contact",
+            description: <ContactForm></ContactForm>
         },
         {
-            name: "Resume"
+            name: "Resume",
+            description: <Resume></Resume>
         }
     ]);
 
@@ -36,12 +38,13 @@ function App() {
                 currentLink= {currentLink}
             ></Nav>
             <main>
-                
-                <Links currentLink={currentLink}></Links>
-                <About></About>
-                <ContactForm></ContactForm>
-                <Portfolio></Portfolio>
-                <Resume></Resume>
+                <div>
+                <About 
+                navLinks= {navLinks}
+                setCurrentLink= {setCurrentLink}
+                currentLink= {currentLink}
+                ></About>
+                </div>
             </main>
             <Footer></Footer> 
         </div>

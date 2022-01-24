@@ -218,3 +218,9 @@ textarea {
   height: 350px;
   width: 100%;
 }
+
+.links{
+  color: #cccccc;
+  display: inline-flex;
+  margin-left: 300px;
+}
